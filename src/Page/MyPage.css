@@ -1,0 +1,97 @@
+.mypage-header {
+  display: flex;
+  padding: 3px 1px 3px 7px;
+  align-items: center;
+}
+
+.mypage-text {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(60, 57, 57);
+  text-align: center;
+}
+
+.mypage-container {
+  display: grid;
+  grid-template-rows: 4fr 2.5fr 1.5fr;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  min-height: 80vh;
+}
+
+.mypage-myinfo {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr;
+  border: 0.2px solid rgb(126, 123, 123);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mypage-myinfo-first {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.mypage-myinfo-second {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.mypage-myinfo-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.mypage-container-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mypage-certify {
+  font-size: 10px;
+}
+.coin-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 20px;
+  margin: 0px 15px 15px 15px;
+  border-radius: 10px;
+  background-color: #fff279;
+}
+.emoji-container {
+  width: 145px;
+  height: 145px;
+  margin: 15px 10px 30px 20px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
+.emoji-grid-container {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  gap: 10px;
+}
+.emojies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.mypage-charge-button {
+  font-size: 11px;
+  background-color: rgb(42, 40, 40);
+  color: white;
+  border-radius: 13px;
+  width: 70px;
+  height: 25px;
+}
+
+.mypage-image-container {
+  width: 100%; /* 혹은 필요한 특정 크기 */
+  height: auto; /* 높이를 자동으로 설정하여 비율을 유지 */
+  display: flex; /* 이미지를 중앙에 배치하기 위해 flex를 사용 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  overflow: hidden; /* 컨테이너 바깥으로 넘어가는 이미지 숨기기 */
+}

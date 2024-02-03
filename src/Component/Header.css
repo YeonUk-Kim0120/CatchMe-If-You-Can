@@ -1,0 +1,32 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+  border-bottom: 1px solid #f0f0f0;
+  height: 7vh;
+  gap: 5px;
+}
+
+.header-middle {
+  display: flex;
+  align-items: center; /* 세로 중앙 정렬 */
+  justify-content: center;
+}
+.header-logo {
+  width: 162px;
+  height: 36px;
+}
+
+.header-alarm {
+  width: 20px;
+  height: 24px;
+}
+
+.header-arrow {
+  width: 32px;
+  height: 24px;
+}
+
+.header-menu {
+  display: block;
+  margin: auto;
+}

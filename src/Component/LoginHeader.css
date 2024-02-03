@@ -1,0 +1,29 @@
+.loginheader-container {
+  display: grid;
+  grid-template-columns: 8fr 1.2fr 1.4fr;
+  height: 7vh;
+  gap: 10px;
+}
+
+.loginheader-logo {
+  width: 162px;
+  height: 36px;
+  margin-top: 1.5%;
+  margin-left: 2%;
+}
+
+.loginheader-alarm {
+  width: 34px;
+  height: 43px;
+  display: block;
+  margin: auto;
+}
+
+.loginheader-menu {
+  width: 25px;
+  height: 6px;
+  display: block;
+  margin: auto;
+  margin-top: 35%;
+  margin-right: 35%;
+}
