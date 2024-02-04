@@ -132,3 +132,7 @@
   align-items: center; /* 세로 중앙 정렬 */
   overflow: hidden; /* 컨테이너 바깥으로 넘어가는 이미지 숨기기 */
 }
+
+.mypage-coin-text-align {
+  display: flex;
+}

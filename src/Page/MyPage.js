@@ -77,10 +77,14 @@ function MyPage() {
         </div>
         <div>
           <div className="coin-container">
-            <div>보유코인:</div>
-            <div>7,000c</div>
             <div>
-              <button className="mypage-charge-button">충전하기</button>
+              <p>보유코인: </p>
+            </div>
+            <p>7,000c</p>
+            <div>
+              <p>
+                <button className="mypage-charge-button">충전하기</button>
+              </p>
             </div>
           </div>
         </div>
