@@ -26,11 +26,13 @@ function MyPage() {
             <div>
               <img
                 src={`${process.env.PUBLIC_URL}/Imgs/수컷냥.png`}
-                className=""
+                className="mypage-myinfo-img"
               />
             </div>
-            <div>r___eve님</div>
-            <div>
+            <div className="mypage-myinfo-nickname">
+              <span>r___eve님</span>
+            </div>
+            <div className="mypage-myinfo-modify-button">
               <span>{">"}</span>
             </div>
           </div>
@@ -41,13 +43,13 @@ function MyPage() {
               <div>{myinformation.weight}</div>
               <div>{myinformation.age}</div>
             </div>
-            <div>{myinformation.univ}재학중</div>
-            <div>
-              {myinformation.home}{" "}
+            <div className="mypage-myinfo-univ">
+              {myinformation.univ} 재학중
               <span className="mypage-certify">
-                {myinformation.certify ? "위치인증 완료" : "위치인증 미완료"}
+                {myinformation.certify ? " 위치인증 완료" : " 위치인증 미완료"}
               </span>
             </div>
+            <div className="mypage-myinfo-univ">{myinformation.home}</div>
           </div>
         </div>
         <div className="mypage-container-col">
@@ -66,7 +68,7 @@ function MyPage() {
             <div>아이콘변경</div>
           </div>
 
-          <div>
+          <div className="mypage-friends-manage">
             <img
               src={`${process.env.PUBLIC_URL}/Imgs/managefriends.png`}
               className="mypage-image-container"

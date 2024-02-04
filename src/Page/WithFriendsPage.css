@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  padding: 20px;
+  padding: 10px 20px 10px 15px;
 }
 
 .withfriends-text {
@@ -39,13 +39,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  /* 색상은 JS 코드에서 인라인 스타일로 설정 */
 }
 .friend-info {
   display: flex;
@@ -93,10 +92,16 @@
   border-radius: 10px;
   border: 0.2px solid rgb(213, 213, 213);
 }
+
+.simple-plus-button-locate {
+  margin-top: 10%;
+}
+
 .kakao-button1 {
   display: block;
   margin: auto;
-  width: 320px;
+  margin-top: 5%;
+  width: 330px;
   height: 50px;
   color: #391b1b;
   font-weight: bold;
@@ -105,51 +110,9 @@
   border: none;
   border-radius: 10px;
 }
-
-/* 
-.explain-box {
-  background: #f9f9f9;
-  border-radius: 30px;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-}
-
-.path-box {
-  background: #f9f9f9;
-  border-radius: 30px;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-}
-
-.need-withfriends-text {
-  font-size: 26px;
-  font-weight: bold;
-  text-decoration: none;
-  color: rgb(60, 57, 57);
+.withfriends-no-friends {
   text-align: center;
-}
-
-.need-withfriends-text2 {
+  margin-top: 8%;
   font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  color: rgb(60, 57, 57);
-  text-align: center;
+  color: #cccbcb;
 }
-
-.path-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  color: rgb(60, 57, 57);
-}
-
-.path-icon {
-  display: block;
-  margin: auto;
-} */

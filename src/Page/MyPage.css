@@ -1,6 +1,6 @@
 .mypage-header {
   display: flex;
-  padding: 3px 1px 3px 7px;
+  padding: 16px;
   align-items: center;
 }
 
@@ -24,48 +24,81 @@
 .mypage-myinfo {
   display: grid;
   grid-template-rows: 1fr 1.5fr;
-  border: 0.2px solid rgb(126, 123, 123);
+  gap: 10px;
   border-radius: 15px;
   padding: 10px;
   margin: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .mypage-myinfo-first {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1.5fr 2fr 0.5fr;
+  gap: 3px;
 }
-
+.mypage-myinfo-img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+.mypage-myinfo-nickname {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 21%;
+  margin-left: -25%;
+}
+.mypage-myinfo-modify-button {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60%;
+}
 .mypage-myinfo-second {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 30px;
+  text-align: center;
 }
 .mypage-myinfo-body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  font-size: 20px;
+}
+.mypage-myinfo-univ {
+  font-size: 20px;
+  font-weight: bold;
+}
+.mypage-certify {
+  font-size: 10px;
+}
+.mypage-myinfo-home {
+  font-size: 20px;
+  font-weight: bold;
 }
 .mypage-container-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.mypage-certify {
-  font-size: 10px;
-}
+
 .coin-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  padding: 20px;
-  margin: 0px 15px 15px 15px;
+  grid-template-columns: 1.3fr 1.7fr 1fr;
+  padding: 15px;
+  height: 50px;
+  margin: 0px 10px 0px 10px;
   border-radius: 10px;
   background-color: #fff279;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .emoji-container {
-  width: 145px;
-  height: 145px;
-  margin: 15px 10px 30px 20px;
+  width: 150px;
+  height: 150px;
+  margin: 15px 10px 0px 15px;
   background-color: blanchedalmond;
   border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .emoji-grid-container {
   display: grid;
@@ -86,7 +119,11 @@
   width: 70px;
   height: 25px;
 }
-
+.mypage-friends-manage {
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+}
 .mypage-image-container {
   width: 100%; /* 혹은 필요한 특정 크기 */
   height: auto; /* 높이를 자동으로 설정하여 비율을 유지 */

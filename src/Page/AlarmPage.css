@@ -1,52 +1,57 @@
-.notifications-container {
+/* .notifications-container {
   display: grid;
-  grid-template-rows: 7fr;
-  gap: 20px;
+  grid-template-rows: 0.5fr 7fr;
+  margin-top: 10%;
   padding: 2px 20px 20px 20px;
-
+  gap: 5px;
   max-height: 75vh;
+}
+.notifications-text-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px 0px 15px;
+}
+.notification-text-number {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.notification-text-delete {
+  font-size: 10px;
+  font-weight: lighter;
 }
 
 .notification-list {
   padding: 10px;
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
-  border: 0.2px solid rgb(213, 213, 213);
   overflow-y: auto;
-  min-height: 70vh;
+  min-height: 63vh;
+  max-height: 63vh;
 }
 .notification-item {
-  background: #f9f9f9;
+  background: #ffffff;
   border-radius: 16px;
   padding: 12px;
   margin-bottom: 8px;
   display: grid;
+  min-height: 60px;
   grid-template-columns: 6fr 1fr;
   gap: 10px;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .notification-item p {
   margin: 0;
   color: #333333;
 }
-/* .notification-item {
-  background: #f9f9f9;
-  border-radius: 16px;
-  padding: 12px;
-  margin-bottom: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
 
 .alarm-header {
   display: flex;
   align-items: center;
   padding: 16px;
-  border-bottom: 1px solid #f0f0f0;
 }
 
 .header button {
@@ -68,9 +73,4 @@
   text-decoration: none;
   color: rgb(60, 57, 57);
   text-align: center;
-}
-
-.back-icon {
-  display: block;
-  margin: auto;
-}
+} */
